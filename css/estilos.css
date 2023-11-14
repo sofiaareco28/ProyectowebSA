@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;700&family=Tajawal:wght@200;400;500&display=swap");
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #ede0d4;
+}
+
+h1 {
+  font-family: "Almarai", sans-serif;
+  height: 10vh;
+}
+
+h3 {
+  height: 20vh;
+}
+
+nav {
+  background-color: #e3d5ca;
+}
+
+main div {
+  font-family: "Tajawal", sans-serif;
+  height: 20vh;
+}
+
+main div h2 {
+  padding-top: 6.25rem;
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+}
+
+main section {
+  padding-top: 1.875rem;
+  padding-top: 3.125rem;
+  height: 40vh;
+}
+
+footer {
+  height: 30vh;
+  background-color: #f5ebe0;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+  main {
+    height: auto;
+  }
+} /*# sourceMappingURL=estilos.css.map */

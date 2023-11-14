@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Paisajismo</title>
+    <!-- Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!--Link Bootsrap Iconografia-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!--Mi Link CSS-->
+   <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" width="40">
+    <div class="container-fluid">
+  
+        <a class="navbar-brand display-1" href="#">
+          <img src="Imagenes/tree.svg" alt="Bootstrap" width="40">Paisajismo SA.
+        </a>
+   
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#desplegable"   a>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex flex-row-reverse" id="desplegable">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active"  href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  href="#">Presupestos</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" >
+             Desplegar
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Proyectos</a></li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  <!--Fin Barra de Navegacion-->
+
+  <header class="container-fluid bg-gray-100">
+    <!--CAROUSEL-->
+    <div id="miSlider" class="carousel slide"> 
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#miSlider" data-bs-slide-to="1" class="active"></button>
+        <button type="button" data-bs-target="#miSlider" data-bs-slide-to="2"></button>
+      </div> <!--cierra botones-->
+
+      <div class="carousel-inner">
+      
+        <div class="carousel-item active">
+          <img src="Imagenes/Imagen 1.jpg" class="d-block w-100" alt="Imagen 1">
+        </div><!--Imagen 2-->
+        <div class="carousel-item">
+          <img src="Imagenes/Imagen 2.jpg" class="d-block w-100" alt="Imagen 2">
+        </div><!--Imagen 3-->
+      </div> <!--CIERRA IMAGENES-->
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#miSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#miSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+    <!--FIN DE CAROUSEL-->
+    <h1 class="text-uppercase fs-1 fw-semibold mt-3">Diseña tu propio Oasis</h1>
+    <h3 class="text-capitalize fs-3 fw-lighter">Diseños personalizados para sentirse en el paraiso.</h3>
+    <div class="container text-center " >
+      <div class="row">
+        <div class="col fs-5">
+          Paisajismo para Ciudades
+          <p class="fs-6 fw-lighter">Diseña el Parque de tu Ciudad</p>
+          <button type="button" class="btn btn-light-subtle btn-sm lh-lg"><img src="Imagenes/arrow-right-short.svg" alt="Arrow"> Mas Informacion</button>
+        </div>
+        <div class="col fs-5">
+          Paisajismo para Complejo de Departamentos
+            <p class="fs-6 fw-lighter">Diseña un Parque para un Complejo de Departamentos</p>
+            <button type="button" class="btn btn-light-subtle btn-sm lh-lg"><img src="Imagenes/arrow-right-short.svg" alt="Arrow"> Mas Informacion</button>
+        </div>
+        <div class="col fs-5 ">
+          Paisajismo de Casas
+            <p class="fs-6 fw-lighter">Diseña un parque para tu casa</p>
+            <button type="button" class="btn btn-light-subtle btn-sm lh-lg"> <img src="Imagenes/arrow-right-short.svg" alt="Arrow"> Mas Informacion</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main  class="container-fluid">
+    <div>      
+
+
+
+
+      .
+    </div>
+    
+    <div class="container text-center container-lg h-100">
+      <div class="row">
+        <div class="col">  </div>
+        <div class="col">  <img class="rounded" src="Imagenes/Imagen Parque.jpeg" alt="Parque"></div>
+        <div class="col"> 
+          <p><strong>Proyectos Premiados</strong></p>
+          <p class="fw-lighter"><small>En Paisajismo SA. trabajan los paisajsitas mas renombrados del mundo! Paisajistas que recibieron reconocimiento internacional, y ganadores de premios</small></p>
+          
+          <!--MODAL-->
+          <button class="dropdown-item btn btn-outline-dark btn-sm lh-lg" data-bs-toggle="modal" data-bs-target="#miModal"><img src="Imagenes/arrow-right-short.svg" alt="Arrow">Contacto</button>
+          <div class="modal" id="miModal" tabindex="-1" >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title h6" id="miModal">Contactos</h1>
+                  
+                  <label for="email">paisajismo@gmail.com</label>
+                  
+                
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+               
+                </div>
+                <div class="modal-footer">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          
+        </div>
+      </div>
+      
+
+      <div class="container text-center gap-3">
+        <h2>Segui a Nuestros Diseñadores</h2>
+        <p><small>Mario Schjetan, Pedro Camarena, Alberto Kalach, Tatiana Bilbao, Claudia Harari, Pedro Sanchez, etc..!</small></p>
+
+      </div>
+
+    <section>
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            <img src="Imagenes/Imagen 5.3.jpeg" class="rounded-start-pill border" alt="Imagen 5.3">
+          </div>
+          <div class="col-md-auto">
+              
+          </div>
+          <div class="col col-lg-2">
+            <img src="Imagenes/Imagen 5.4.jpeg" class="rounded-end-pill border" alt="Imagen 5.4">
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+  <footer class="container-fluid ">
+
+    <h4 class="pt-3">Formulario de Contacto</h4>
+  
+  
+    <form>
+    <div class="row">
+
+      <div class="col-md-6">
+        <label for="nombre" class="form-label mt-2">Nombre y Apellido</label>
+        <input type="text" class="form-control" name="nombre" id="nombre">
+    </div>
+
+    <div class="col-md-6">
+      <label for="email" class="form-label mt-2">Email</label>
+      <input type="email" class="form-control" name="email" id="email">
+    </div>
+
+    <div class="col-md-6">
+      <label for="comentarios" class="form-label mt-2"> Comentarios</label>
+      <textarea name="comentarios" id="comentarios" class="form-control"></textarea>
+    </div>
+
+    <div class="col-md-6">
+      <button  class="btn btn-light-subtle mt-2"><img src="Imagenes/arrow-right-short.svg" alt="Arrow">Enviar</button>
+    </div>
+  </div>
+
+  
+
+          </div>
+
+
+    </form>
+    
+
+   
+    
+
+  </footer>
+  
+  <!--Link JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
